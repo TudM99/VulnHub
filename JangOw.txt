@@ -1,0 +1,6 @@
+- Scanat si am vazut vsftpd, deci stiam ca are ftp, singurul exploit gasit pe 3.0.3 era de DDOS ceea ce nu ma ajuta
+- Cu dirbuster am gasit /site/wordpress/config.php care imi arata un user
+- Am bagat user-ul in hydra pe ftp cu rockyou, nu a functionat
+- Apoi am incercat sa introduc comenzi in /site/wordpress/buscar?=(comanda aici) doar ca nu stiam cum se introduc, initial am incercat cu "?cmd=" dar sunt idiot
+- Am gasit pe net ca pot introduce direct comenzi de linux, si am dat cat la acelasi config.php, si am gasit parola de la user.
+- Nu a mers sa ma conectez prin ftp cu user-ul si parola respectiva, dar a mers sa ma loghez direct pe VM
